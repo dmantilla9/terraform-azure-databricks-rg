@@ -259,3 +259,6 @@ Please ensure that your `subscription.json` file containing sensitive data such 
 # .gitignore
 subscription.json
 ```
+
+> [!CAUTION]
+> By using this Terraform module, Azure will automatically create a VNET and a NAT Gateway in the infrastructure subscription. Additionally, an alert will be triggered to notify about the creation of these resources.
